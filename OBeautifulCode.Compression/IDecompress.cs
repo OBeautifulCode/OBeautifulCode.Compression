@@ -15,7 +15,9 @@ namespace OBeautifulCode.Compression
         /// Decompresses the provided byte array.
         /// </summary>
         /// <param name="compressedBytes">Byte array to decompress.</param>
-        /// <returns>Decompressed version of the supplied byte array.</returns>
+        /// <returns>
+        /// Decompressed version of the supplied byte array.
+        /// </returns>
         byte[] DecompressBytes(
             byte[] compressedBytes);
     }

@@ -24,10 +24,9 @@ namespace OBeautifulCode.Compression.Recipes
         /// Compresses the provided byte array.
         /// </summary>
         /// <param name="uncompressedBytes">Byte array to compress.</param>
-        /// <returns>Compressed version of the supplied byte array.</returns>
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2202:Do not dispose objects multiple times", Justification = "I like it this way.")]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Reliability", "CA2000:DisposeObjectsBeforeLosingScope", Justification = "I like it this way.")]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1720:Identifiers should not contain type names", Justification = "I like this name...")]
+        /// <returns>
+        /// Compressed version of the supplied byte array.
+        /// </returns>
         public static byte[] CompressBytes(
             byte[] uncompressedBytes)
         {
@@ -57,9 +56,6 @@ namespace OBeautifulCode.Compression.Recipes
         /// <returns>
         /// Decompressed version of the supplied byte array.
         /// </returns>
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2202:Do not dispose objects multiple times", Justification = "I like it this way.")]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Reliability", "CA2000:DisposeObjectsBeforeLosingScope", Justification = "I like it this way.")]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Naming", "CA1720:Identifiers should not contain type names", Justification = "I like this name...")]
         public static byte[] DecompressBytes(
             byte[] compressedBytes)
         {

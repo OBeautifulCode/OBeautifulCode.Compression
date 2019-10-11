@@ -15,7 +15,9 @@ namespace OBeautifulCode.Compression
         /// Builds the correct <see cref="ICompressAndDecompress" /> implementation based on the kind.
         /// </summary>
         /// <param name="compressionKind">Kind of compression.</param>
-        /// <returns><see cref="ICompressAndDecompress" /> implementation based on the kind.</returns>
+        /// <returns>
+        /// <see cref="ICompressAndDecompress" /> implementation based on the kind.
+        /// </returns>
         ICompressAndDecompress BuildCompressor(
             CompressionKind compressionKind);
     }
