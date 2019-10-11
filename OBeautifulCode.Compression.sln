@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBeautifulCode.Compression", "OBeautifulCode.Compression\OBeautifulCode.Compression.csproj", "{1BBFFE9D-99AA-4042-958F-C444DEA33F98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBeautifulCode.Compression.Recipes", "OBeautifulCode.Compression.Recipes\OBeautifulCode.Compression.Recipes.csproj", "{4499CF18-311A-41DB-B767-95722E88401C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBeautifulCode.Compression.Recipes.Test", "OBeautifulCode.Compression.Recipes.Test\OBeautifulCode.Compression.Recipes.Test.csproj", "{2153FB71-A937-43F2-B14F-D6249750FB59}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{486F2D0F-228B-497D-BA3E-7FDE76DEED15}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1BBFFE9D-99AA-4042-958F-C444DEA33F98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BBFFE9D-99AA-4042-958F-C444DEA33F98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BBFFE9D-99AA-4042-958F-C444DEA33F98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BBFFE9D-99AA-4042-958F-C444DEA33F98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4499CF18-311A-41DB-B767-95722E88401C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4499CF18-311A-41DB-B767-95722E88401C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4499CF18-311A-41DB-B767-95722E88401C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4499CF18-311A-41DB-B767-95722E88401C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2153FB71-A937-43F2-B14F-D6249750FB59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2153FB71-A937-43F2-B14F-D6249750FB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2153FB71-A937-43F2-B14F-D6249750FB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2153FB71-A937-43F2-B14F-D6249750FB59}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CEE40AD5-1CEC-4733-A5EA-C31DBE2ED7CD}
+	EndGlobalSection
+EndGlobal

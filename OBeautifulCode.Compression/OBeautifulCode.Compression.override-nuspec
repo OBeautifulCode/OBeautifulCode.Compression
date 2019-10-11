@@ -1,0 +1,8 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <description>Contains types related to compression.</description>
+    <tags>compression</tags>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Compression/master/OBeautifulCode.Compression/nuget-icon.png</iconUrl>
+  </metadata>
+</package>
