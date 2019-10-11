@@ -9,10 +9,12 @@
 
 namespace OBeautifulCode.Compression.Recipes
 {
+    using System.Diagnostics.CodeAnalysis;
     using System.IO;
     using System.IO.Compression;
 
     using OBeautifulCode.Assertion.Recipes;
+    using OBeautifulCode.Compression.Recipes.Internal;
 
     /// <summary>
     /// Build in dot net implementation of <see cref="ICompressAndDecompress"/>.
@@ -37,6 +39,8 @@ namespace OBeautifulCode.Compression.Recipes
         /// <returns>
         /// Compressed version of the supplied byte array.
         /// </returns>
+        [SuppressMessage("Microsoft.Usage", "CA2202:Do not dispose objects multiple times", Justification = ObcSuppressBecause.CA2202_DoNotDisposeObjectsMultipleTimes_AnalyzerIsIncorrectlyFlaggingObjectAsBeingDisposedMultipleTimes)]
+        [SuppressMessage("Microsoft.Naming", "CA1720:IdentifiersShouldNotContainTypeNames", MessageId = "bytes", Justification = ObcSuppressBecause.CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifyAndNoGoodAlternative)]
         public static byte[] CompressBytes(
             byte[] uncompressedBytes)
         {
@@ -66,6 +70,8 @@ namespace OBeautifulCode.Compression.Recipes
         /// <returns>
         /// Decompressed version of the supplied byte array.
         /// </returns>
+        [SuppressMessage("Microsoft.Usage", "CA2202:Do not dispose objects multiple times", Justification = ObcSuppressBecause.CA2202_DoNotDisposeObjectsMultipleTimes_AnalyzerIsIncorrectlyFlaggingObjectAsBeingDisposedMultipleTimes)]
+        [SuppressMessage("Microsoft.Naming", "CA1720:IdentifiersShouldNotContainTypeNames", MessageId = "bytes", Justification = ObcSuppressBecause.CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifyAndNoGoodAlternative)]
         public static byte[] DecompressBytes(
             byte[] compressedBytes)
         {

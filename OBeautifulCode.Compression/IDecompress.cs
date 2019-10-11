@@ -6,6 +6,10 @@
 
 namespace OBeautifulCode.Compression
 {
+    using System.Diagnostics.CodeAnalysis;
+
+    using OBeautifulCode.Compression.Internal;
+
     /// <summary>
     /// Interface to decompress.
     /// </summary>
@@ -18,6 +22,7 @@ namespace OBeautifulCode.Compression
         /// <returns>
         /// Decompressed version of the supplied byte array.
         /// </returns>
+        [SuppressMessage("Microsoft.Naming", "CA1720:IdentifiersShouldNotContainTypeNames", MessageId = "bytes", Justification = ObcSuppressBecause.CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifyAndNoGoodAlternative)]
         byte[] DecompressBytes(
             byte[] compressedBytes);
     }
