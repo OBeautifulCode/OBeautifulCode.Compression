@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>OBeautifulCode.Compression.Recipes.CompressionHelper</id>
+    <description>Basic wrapper around the System.IO.Compression.GZipStream.</description>
+    <tags>compression</tags>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Compression/master/OBeautifulCode.Compression.Recipes/nuget-icon.png</iconUrl>
+    <dependencies>
+      <dependency id="OBeautifulCode.Assertion.Recipes.Must" version="1.0.9" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="CompressorFactory.cs" target="content\net462\.recipes\OBeautifulCode.Compression\CompressorFactory.cs" />
+    <file src="DotNetZipCompressor.cs" target="content\net462\.recipes\OBeautifulCode.Compression\DotNetZipCompressor.cs" />
+    <file src="NullCompressor.cs" target="content\net462\.recipes\OBeautifulCode.Compression\NullCompressor.cs" />
+  </files>
+</package>
