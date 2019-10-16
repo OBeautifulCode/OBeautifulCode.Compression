@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>OBeautifulCode.Compression.Recipes.DummyFactory</id>
+    <description>Dummy factory for compression types.</description>
+    <tags>compression dummy factory</tags>
+    <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Compression/master/OBeautifulCode.Compression.Recipes.Test/nuget-icon.png</iconUrl>
+    <dependencies>
+      <dependency id="OBeautifulCode.AutoFakeItEasy" version="1.0.118" />
+      <dependency id="OBeautifulCode.Compression" version="1.0.4" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="CompressionDummyFactory.cs" target="content\net462\.recipes\OBeautifulCode.Serialization\CompressionDummyFactory.cs" />
+  </files>
+</package>
