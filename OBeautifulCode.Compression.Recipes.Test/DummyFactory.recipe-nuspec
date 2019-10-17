@@ -7,10 +7,10 @@
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Compression/master/OBeautifulCode.Compression.Recipes.Test/nuget-icon.png</iconUrl>
     <dependencies>
       <dependency id="OBeautifulCode.AutoFakeItEasy" version="1.0.118" />
-      <dependency id="OBeautifulCode.Compression" version="1.0.5" />
+      <dependency id="OBeautifulCode.Compression" version="1.0.6" />
     </dependencies>
   </metadata>
   <files>
-    <file src="CompressionDummyFactory.cs" target="content\net462\.recipes\OBeautifulCode.Compressions\CompressionDummyFactory.cs" />
+    <file src="CompressionDummyFactory.cs" target="content\net462\.recipes\OBeautifulCode.Compression\CompressionDummyFactory.cs" />
   </files>
 </package>
