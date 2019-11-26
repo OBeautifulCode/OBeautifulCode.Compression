@@ -22,7 +22,7 @@ namespace OBeautifulCode.Compression
         /// <returns>
         /// Compressed version of the supplied byte array.
         /// </returns>
-        [SuppressMessage("Microsoft.Naming", "CA1720:IdentifiersShouldNotContainTypeNames", MessageId = "bytes", Justification = ObcSuppressBecause.CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifyAndNoGoodAlternative)]
+        [SuppressMessage("Microsoft.Naming", "CA1720:IdentifiersShouldNotContainTypeNames", MessageId = "bytes", Justification = ObcSuppressBecause.CA1720_IdentifiersShouldNotContainTypeNames_TypeNameAddsClarityToIdentifierAndNoGoodAlternative)]
         byte[] CompressBytes(
             byte[] uncompressedBytes);
     }
