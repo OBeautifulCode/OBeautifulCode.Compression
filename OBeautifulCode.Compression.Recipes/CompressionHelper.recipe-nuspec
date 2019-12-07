@@ -6,8 +6,8 @@
     <tags>compression</tags>
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Compression/master/OBeautifulCode.Compression.Recipes/nuget-icon.png</iconUrl>
     <dependencies>
-      <dependency id="OBeautifulCode.Assertion.Recipes.Must" version="1.0.9" />
-      <dependency id="OBeautifulCode.Compression" version="1.0.7" />
+      <dependency id="OBeautifulCode.Assertion.Recipes.Must" version="1.0.12" />
+      <dependency id="OBeautifulCode.Compression" version="$version$" />
     </dependencies>
   </metadata>
   <files>
