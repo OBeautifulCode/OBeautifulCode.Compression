@@ -103,7 +103,6 @@
     <Compile Include=".recipes\OBeautifulCode.Type\ToStringReadableOptions.cs" />
     <Compile Include=".recipes\OBeautifulCode.Type\TypeExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Class1Test.cs" />
     <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="CompressionDummyFactory.cs" />
     <Compile Include="CompressionDummyFactory.designer.cs">
