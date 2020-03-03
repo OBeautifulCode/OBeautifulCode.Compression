@@ -17,6 +17,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		RepoConfig.state = RepoConfig.state
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBeautifulCode.Compression.Test", "OBeautifulCode.Compression.Test\OBeautifulCode.Compression.Test.csproj", "{A0501F64-6FFB-419C-91B8-AFA394AFFC4E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{2153FB71-A937-43F2-B14F-D6249750FB59}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2153FB71-A937-43F2-B14F-D6249750FB59}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2153FB71-A937-43F2-B14F-D6249750FB59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0501F64-6FFB-419C-91B8-AFA394AFFC4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0501F64-6FFB-419C-91B8-AFA394AFFC4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0501F64-6FFB-419C-91B8-AFA394AFFC4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0501F64-6FFB-419C-91B8-AFA394AFFC4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
