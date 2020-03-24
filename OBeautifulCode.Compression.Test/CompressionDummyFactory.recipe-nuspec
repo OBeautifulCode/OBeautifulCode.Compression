@@ -7,7 +7,7 @@
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Compression/master/OBeautifulCode.Compression.Test/nuget-icon.png</iconUrl>
     <dependencies>
       <dependency id="OBeautifulCode.Compression" version="$version$" />
-      <dependency id="OBeautifulCode.AutoFakeItEasy" version="1.0.126" />
+      <dependency id="OBeautifulCode.AutoFakeItEasy" version="1.0.127" />
     </dependencies>
   </metadata>
   <files>
