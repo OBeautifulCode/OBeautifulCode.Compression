@@ -120,7 +120,7 @@
     <Compile Include="CompressionDummyFactoryTest.cs" />
     <AdditionalFiles Include=".analyzers\stylecop.json" />
     <None Include=".analyzers\test.ruleset" />
-    <None Include="CompressionDummyFactory.recipe-nuspec" />
+    <None Include="DummyFactory.recipe-nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
