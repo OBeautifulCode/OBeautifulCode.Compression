@@ -6,9 +6,12 @@
 
 namespace OBeautifulCode.Compression
 {
+    using System;
+
     /// <summary>
     /// Kind of compression.
     /// </summary>
+    [Serializable]
     public enum CompressionKind
     {
         /// <summary>
