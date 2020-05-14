@@ -13,7 +13,7 @@ namespace OBeautifulCode.Compression
     /// <summary>
     /// Interface to compress.
     /// </summary>
-    public interface ICompress : IHaveCompressionKind
+    public interface ICompress
     {
         /// <summary>
         /// Compresses the provided byte array.

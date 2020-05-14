@@ -12,13 +12,13 @@ namespace OBeautifulCode.Compression
     public interface ICompressorFactory
     {
         /// <summary>
-        /// Builds the correct <see cref="ICompressAndDecompress" /> implementation based on the kind.
+        /// Builds the correct <see cref="ICompressor" /> implementation based on the kind.
         /// </summary>
         /// <param name="compressionKind">Kind of compression.</param>
         /// <returns>
-        /// <see cref="ICompressAndDecompress" /> implementation based on the kind.
+        /// <see cref="ICompressor" /> implementation based on the kind.
         /// </returns>
-        ICompressAndDecompress BuildCompressor(
+        ICompressor BuildCompressor(
             CompressionKind compressionKind);
     }
 }

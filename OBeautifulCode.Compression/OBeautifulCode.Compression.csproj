@@ -48,6 +48,7 @@
     <Compile Include=".analyzers\SuppressBecause.cs" />
     <Compile Include="CompressionKind.cs" />
     <Compile Include="ICompress.cs" />
+    <Compile Include="ICompressor.cs" />
     <Compile Include="ICompressAndDecompress.cs" />
     <Compile Include="ICompressorFactory.cs" />
     <Compile Include="IDecompress.cs" />

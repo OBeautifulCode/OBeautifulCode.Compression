@@ -13,7 +13,7 @@ namespace OBeautifulCode.Compression
     /// <summary>
     /// Interface to decompress.
     /// </summary>
-    public interface IDecompress : IHaveCompressionKind
+    public interface IDecompress
     {
         /// <summary>
         /// Decompresses the provided byte array.
