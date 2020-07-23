@@ -30,7 +30,7 @@ namespace OBeautifulCode.Compression.Recipes.Test
             // Assert
             exception.Should().NotBeNull();
             exception.Should().BeOfType<ArgumentNullException>();
-            exception.Message.Should().Be("Provided value (name: 'uncompressedBytes') is null.");
+            exception.Message.Should().Contain("Parameter name: uncompressedBytes");
         }
 
         [Fact]
@@ -46,7 +46,7 @@ namespace OBeautifulCode.Compression.Recipes.Test
             // Assert
             exception.Should().NotBeNull();
             exception.Should().BeOfType<ArgumentNullException>();
-            exception.Message.Should().Be("Provided value (name: 'compressedBytes') is null.");
+            exception.Message.Should().Contain("Parameter name: compressedBytes");
         }
 
         [Fact]

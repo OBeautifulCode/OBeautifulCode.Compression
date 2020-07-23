@@ -27,7 +27,7 @@ namespace OBeautifulCode.Compression.Recipes.Test
             // Assert
             exception.Should().NotBeNull();
             exception.Should().BeOfType<ArgumentOutOfRangeException>();
-            exception.Message.Should().Be("Provided value (name: 'compressionKind') is equal to the comparison value using EqualityExtensions.IsEqualTo<T>, where T: CompressionKind.  Specified 'comparisonValue' is 'Invalid'.");
+            exception.Message.Should().Be("'compressionKind' == 'Invalid'");
         }
 
         [Fact]
