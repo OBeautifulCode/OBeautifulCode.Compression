@@ -8,7 +8,7 @@ namespace OBeautifulCode.Compression
 {
     using System.Diagnostics.CodeAnalysis;
 
-    using OBeautifulCode.Compression.Internal;
+    using OBeautifulCode.CodeAnalysis.Recipes;
 
     /// <summary>
     /// Interface to decompress.

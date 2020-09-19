@@ -7,10 +7,10 @@
     <iconUrl>https://raw.githubusercontent.com/OBeautifulCode/OBeautifulCode.Compression/master/OBeautifulCode.Compression.Recipes/nuget-icon.png</iconUrl>
     <dependencies>
       <dependency id="OBeautifulCode.Compression" version="$version$" />
+      <dependency id="OBeautifulCode.CodeAnalysis.Recipes.SuppressBecause" version="1.0.6" />
     </dependencies>
   </metadata>
   <files>
-    <file src=".analyzers\SuppressBecause.cs" target="content\net462\.recipes\OBeautifulCode.Compression\SuppressBecause.cs" />
     <file src="CompressorFactory.cs" target="content\net462\.recipes\OBeautifulCode.Compression\CompressorFactory.cs" />
     <file src="DotNetZipCompressor.cs" target="content\net462\.recipes\OBeautifulCode.Compression\DotNetZipCompressor.cs" />
     <file src="NullCompressor.cs" target="content\net462\.recipes\OBeautifulCode.Compression\NullCompressor.cs" />
